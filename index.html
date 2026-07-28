@@ -580,28 +580,14 @@
         everyone sees the same shared register in real time.
      ===================================================================== */
   var firebaseConfig = {
-     apiKey: "AIzaSyD2eDckpS-eI4iY8W0zLr1nb1y4r0EuTj8",
+    apiKey: "AIzaSyD2eDckpS-eI4iY8W0zLr1nb1y4r0EuTj8",
     authDomain: "cheque-tracker-b5bd5.firebaseapp.com",
     databaseURL: "https://cheque-tracker-b5bd5-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "cheque-tracker-b5bd5",
     storageBucket: "cheque-tracker-b5bd5.firebasestorage.app",
     messagingSenderId: "317527936291",
-    appId: "1:317527936291:web:d5131e9eb09e68bccfd096",
-    measurementId: "G-7ZY8ZE7W89"
+    appId: "1:317527936291:web:d5131e9eb09e68bccfd096"
   };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>",
-    authDomain: "YOUR_PROJECT.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT-default-rtdb.firebaseio.com",
-    projectId: "YOUR_PROJECT",
-    storageBucket: "YOUR_PROJECT.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
-  };
-
   var firebaseReady = firebaseConfig.apiKey !== "YOUR_API_KEY";
   var db = null;
   if(firebaseReady){
